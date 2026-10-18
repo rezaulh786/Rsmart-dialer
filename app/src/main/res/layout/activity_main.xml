@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F8F9FA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Dialer"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1A73E8"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚡ Auto Call Recording Active"
+        android:textSize="14sp"
+        android:textColor="#34A853"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="নম্বর লিখুন..."
+        android:inputType="phone"
+        android:background="#FFFFFF"
+        android:padding="12dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Call Now"
+        android:textSize="18sp"
+        android:backgroundTint="#1A73E8"
+        android:layout_marginBottom="24dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tvRecordings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="রেকর্ডিং তালিকা লোড হচ্ছে..."
+            android:textColor="#333333"
+            android:textSize="14sp"/>
+    </ScrollView>
+
+</LinearLayout>
